@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f1f0eb;
+}
+
+/* -------------- HEADER section ------------------------------ */
+header {
+    background-color: #0A0664;
+    color: #a8a9b3;
+    padding: 10px 0;
+}
+
+/* ---- nav ---- */
+
+/* ----> COLORS Nav */
+
+.navbar-brand:hover,
+.nav-link:hover,
+li .bi:hover {
+    color: #FF52B4;   
+}
+
+
+
+.navbar-brand,
+.nav-link,
+.navbar-toggler-icon,
+.navbar-toggler,
+li .bi {
+    color: #4CEDDD;
+}
+
+.nav-link:focus {
+    /* color: #FF52B4; */
+    text-decoration: underline;
+}
+
+/* ##### Danger ##### */
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show  {
+    color: #FF52B4;
+}
+/* ##### Danger ##### */
+
+
+/* COLORS Nav <---- */
+
+
+/* ----> SPECS Nav */
+.navbar-brand {
+    padding: 0;
+    height: 120px;
+    align-items: center; 
+}
+.navbar-brand {
+    font-size: 200%;
+    padding: 0;
+}
+.navbar-brand ul{
+    text-align: right;
+}
+
+/* MIRARLO MAS ADELANTE  */
+/* .navbar-nav .nav-item:hover {
+    background-color: #4F1E52;
+    border: 0.5px solid;
+    border-color: #4CEDDD;
+    padding-left: 4em;
+    
+} */
+
+.navbar-toggler-icon {
+    color: #FF52B4;
+}
+/* SPECS Nav <---- */
+
+
+/* -------------- FOOTER section ------------------------------ */
+
+footer {
+    background-color: #0A0664;
+    padding: 10px 0;
+    
+}
+
+
+li .bi {
+    /* color:#71b9c9; */
+
+    /* background-color: #8ec919; */
+}
+
+li .bi:hover {
+    /* color:#0a687d; */
+    transform: scale(2);
+    size: 20px;
+}
+
+
+
+
+
+
+
+/* a este nivel bootrrap empieza a fallar  */
+@media (max-width: 333px){
+    
+}
+
+
+
+
+/* ################# */
+
+/* .container {
+    background-color: aliceblue;
+}
+
+.row {
+    background-color: #8ec919;
+}
+#col1 {
+    background-color: aqua;
+}
+#col2 {
+    background-color: rgb(172, 45, 83);
+}
+#col3 {
+    background-color: rgb(59, 79, 192);
+} */

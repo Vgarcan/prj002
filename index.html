@@ -16,14 +16,11 @@
 </head>
 
 <body>
-    <header>
+    <header class="p-0 ">
         <!-- NAV -->
-        <nav class="navbar navbar-expand-md" aria-label="">
-            <div class="container-fluid">
-                <div class="ms-auto ">
-                    <a class="navbar-brand" href="#"><img class="nav-logo-img" src="" alt="logo DreamsReader.com"></a>
-                </div>
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbar_items"
+        <nav class="navbar navbar-expand-md m-0 p-0" aria-label="">
+            <div class="container-fluid p-0" id="navig">
+                <button class="navbar-toggler order-md-2 m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_items"
                     aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                     <svg class="navbar-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                         fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -31,8 +28,12 @@
                             d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                     </svg>
                 </button>
+                <div class="ms-center order-md-0">
+                    <a class="navbar-brand m-0" href="#"><img class="nav-logo-img" src="" alt="logo DreamsReader.com"></a>
+                </div>
+                
 
-                <div class="collapse navbar-collapse" id="navbar_items">
+                <div class="collapse navbar-collapse order-md-1" id="navbar_items">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>

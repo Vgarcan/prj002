@@ -14,7 +14,7 @@ header {
 
 /* ---- nav ---- */
 
-/* ----> COLORS Nav */
+/*? ----> COLORS Nav */
 
 .navbar-brand:hover,
 .nav-link:hover,
@@ -44,7 +44,7 @@ li .bi
     text-decoration: underline;
 }
 
-/* ##### Danger ##### */
+/*! ##### Danger ##### */
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
@@ -52,10 +52,11 @@ li .bi
 
 }
 
-/* ##### Danger ##### */
+/*! ##### Danger ##### */
 
 
-/* COLORS Nav <---- */
+
+/*? COLORS Nav <---- */
 
 .nav-logo-img {
     content: url('../img/logo/logo-main-sm.png');
@@ -76,6 +77,7 @@ li .bi
 .navbar-brand ul {
     text-align: right;
 }
+
 
 /* MIRARLO MAS ADELANTE  */
 /* .navbar-nav .nav-item:hover {
@@ -107,34 +109,31 @@ footer {
 }
 
 li .bi:hover {
-    /* color:#0a687d; */
     transform: scale(2);
     size: 20px;
 }
 
 
 
-
-
-
 @media only screen and (max-width: 767px) {
     .nav-logo-img {
         content: url('../img/logo/logo-banner-right.png');
-        width: 100%;
-        height: auto;
-        display: block;
+        width: auto; /* Allow the logo to resize with its aspect ratio */
+        max-height: 80px; /* Set a maximum height for the logo */
+        display: inline-block; /* Make sure logo and button are inline */
     }
-
+    
+    .nav-item {
+        padding-left: 7%;
+    }
+    
 }
 
 /* a este nivel bootrrap empieza a fallar  */
-@media (max-width: 333px) {}
-
-
-
-
-.carousel-item img {
-    width: 100%;
+@media (max-width: 333px) {
+    .nav-logo-img {
+        max-height: 60px; /* Set a maximum height for the logo */
+    }
 }
 
 
@@ -157,3 +156,13 @@ li .bi:hover {
 #col3 {
     background-color: rgb(59, 79, 192);
 } */
+
+
+
+
+/* -------------- INDEX Page ------------------------------ */
+
+/* -------------- CAROUSEL section ------------------------------ */
+.carousel-item img {
+    width: 100%;
+    }

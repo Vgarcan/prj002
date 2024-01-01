@@ -18,8 +18,12 @@ header {
 
 .navbar-brand:hover,
 .nav-link:hover,
-li .bi:hover {
-    color: #FF52B4;   
+li .bi:hover,
+#branding
+
+/* footer */
+    {
+    color: #FF52B4;
 }
 
 
@@ -28,7 +32,10 @@ li .bi:hover {
 .nav-link,
 .navbar-toggler-icon,
 .navbar-toggler,
-li .bi {
+li .bi
+
+/* footer */
+    {
     color: #4CEDDD;
 }
 
@@ -38,26 +45,35 @@ li .bi {
 }
 
 /* ##### Danger ##### */
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show  {
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
     color: #FF52B4;
+
 }
+
 /* ##### Danger ##### */
 
 
 /* COLORS Nav <---- */
 
+.nav-logo-img {
+    content: url('../img/logo/logo-main-sm.png');
+}
 
 /* ----> SPECS Nav */
 .navbar-brand {
     padding: 0;
     height: 120px;
-    align-items: center; 
+    align-items: center;
 }
+
 .navbar-brand {
     font-size: 200%;
     padding: 0;
 }
-.navbar-brand ul{
+
+.navbar-brand ul {
     text-align: right;
 }
 
@@ -73,22 +89,21 @@ li .bi {
 .navbar-toggler-icon {
     color: #FF52B4;
 }
+
 /* SPECS Nav <---- */
 
+.featurette img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 /* -------------- FOOTER section ------------------------------ */
 
 footer {
     background-color: #0A0664;
     padding: 10px 0;
-    
-}
 
-
-li .bi {
-    /* color:#71b9c9; */
-
-    /* background-color: #8ec919; */
 }
 
 li .bi:hover {
@@ -102,12 +117,25 @@ li .bi:hover {
 
 
 
+@media only screen and (max-width: 767px) {
+    .nav-logo-img {
+        content: url('../img/logo/logo-banner-right.png');
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 
-/* a este nivel bootrrap empieza a fallar  */
-@media (max-width: 333px){
-    
 }
 
+/* a este nivel bootrrap empieza a fallar  */
+@media (max-width: 333px) {}
+
+
+
+
+.carousel-item img {
+    width: 100%;
+}
 
 
 

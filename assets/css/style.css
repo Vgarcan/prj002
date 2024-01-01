@@ -70,7 +70,7 @@ li .bi
 }
 
 .navbar-brand {
-    font-size: 200%;
+    /* font-size: 200%; */
     padding: 0;
 }
 
@@ -163,6 +163,10 @@ li .bi:hover {
 /* -------------- INDEX Page ------------------------------ */
 
 /* -------------- CAROUSEL section ------------------------------ */
+#mycarousel {
+    margin-top: 10%;
+}
+
 .carousel-item img {
     width: 100%;
     }

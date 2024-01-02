@@ -197,6 +197,7 @@ li .bi:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
     /* margin: 1.5em; */
     
+    
 }
 
 .marketing {
@@ -205,4 +206,10 @@ li .bi:hover {
 
 
 
-
+.featurette div img {
+    height: auto; /* Mantiene la proporción original de la imagen */
+    vertical-align: middle; /* Alinea verticalmente la imagen en relación con el texto circundante */
+    border: 1px solid #FF52B4;
+    border-radius: 15px;
+    margin-top: 5px;
+}

@@ -189,6 +189,7 @@ li .bi:hover {
     border: 1px solid #FF52B4;
     border-radius: 15px;
     color: #FF52B4;
+    margin: 5px;
     /* text-transform: uppercase; */
     text-align: center;
     /* margin: 1.5em; */

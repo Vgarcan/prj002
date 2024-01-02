@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     margin: 0;
     padding: 0;
@@ -5,37 +6,27 @@ body {
     background-color: #f1f0eb;
 }
 
-/* -------------- HEADER section ------------------------------ */
+/* Header Section */
 header {
     background-color: #0A0664;
     color: #a8a9b3;
     padding: 10px 0;
 }
 
-/* ---- nav ---- */
-
-/*? ----> COLORS Nav */
-
+/* Navigation Styles */
+/* Colors for Navbar */
 .navbar-brand:hover,
 .nav-link:hover,
 li .bi:hover,
-#branding
-
-/* footer */
-    {
+#branding {
     color: #FF52B4;
 }
-
-
 
 .navbar-brand,
 .nav-link,
 .navbar-toggler-icon,
 .navbar-toggler,
-li .bi
-
-/* footer */
-    {
+li .bi {
     color: #4CEDDD;
 }
 
@@ -44,25 +35,18 @@ li .bi
     text-decoration: underline;
 }
 
-/*! ##### Danger ##### */
-
+/* Active Link Styles */
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
     color: #FF52B4;
-
 }
 
-/*! ##### Danger ##### */
-
-
-
-/*? COLORS Nav <---- */
-
+/* Navbar Logo */
 .nav-logo-img {
     content: url('../img/logo/logo-main-sm.png');
 }
 
-/* ----> SPECS Nav */
+/* Navbar Specifications */
 .navbar-brand {
     padding: 0;
     height: 120px;
@@ -78,34 +62,21 @@ li .bi
     text-align: right;
 }
 
-
-/* MIRARLO MAS ADELANTE  */
-/* .navbar-nav .nav-item:hover {
-    background-color: #4F1E52;
-    border: 0.5px solid;
-    border-color: #4CEDDD;
-    padding-left: 4em;
-    
-} */
-
 .navbar-toggler-icon {
     color: #FF52B4;
 }
 
-/* SPECS Nav <---- */
-
+/* Featurette Section */
 .featurette img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-/* -------------- FOOTER section ------------------------------ */
-
+/* Footer Section */
 footer {
     background-color: #0A0664;
     padding: 10px 0;
-
 }
 
 li .bi:hover {
@@ -113,102 +84,59 @@ li .bi:hover {
     resize: 20px;
 }
 
-
-
+/* Responsive Styles */
 @media only screen and (max-width: 767px) {
-     
     .nav-logo-img {
         content: url('../img/logo/logo-banner-right.png');
-        width: auto; /* Allow the logo to resize with its aspect ratio */
-        max-height: 80px; /* Set a maximum height for the logo */
-        display: inline-block; /* Make sure logo and button are inline */
+        width: auto;
+        max-height: 80px;
+        display: inline-block;
     }
-    
+
     .nav-item {
         padding-left: 7%;
     }
-    
 }
 
-/* a este nivel bootrrap empieza a fallar  */
 @media (max-width: 333px) {
-
     .nav-logo-img {
-        max-height: 60px; /* Set a maximum height for the logo */
+        max-height: 60px;
     }
 }
 
-
-
-/* ################# */
-
-/* .container {
-    background-color: aliceblue;
-}
-
-.row {
-    background-color: #8ec919;
-}
-#col1 {
-    background-color: aqua;
-}
-#col2 {
-    background-color: rgb(172, 45, 83);
-}
-#col3 {
-    background-color: rgb(59, 79, 192);
-} */
-
-
-
-
-/* -------------- INDEX Page ------------------------------ */
-
-/* -------------- CAROUSEL section ------------------------------ */
-/* #mycarousel {
-    margin-top: 10%;
-} */
-
+/* Index Page */
+/* Carousel Section */
 .carousel-item img {
     width: 100%;
 }
 
-
-
-/* -------------- MARKETING section ------------------------------ */
-
+/* Marketing Section */
 .coulored-div-1 {
     background-color: white;
     border: 1px solid #0b066495;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.coulored-div-1 h2{
-    background-color:#0b0664d7;
+.coulored-div-1 h2 {
+    background-color: #0b0664d7;
     border: 1px solid #FF52B4;
     border-radius: 15px;
     color: #FF52B4;
     margin: 5px;
     padding: 5px;
-    /* text-transform: uppercase; */
     text-align: center;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
-    /* margin: 1.5em; */
-    
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .marketing {
     background-color: #4ceddd36;
 }
 
-
-
 .featurette div img {
-    height: auto; /* Mantiene la proporción original de la imagen */
-    vertical-align: middle; /* Alinea verticalmente la imagen en relación con el texto circundante */
+    height: auto;
+    vertical-align: middle;
     border: 1px solid #FF52B4;
     border-radius: 15px;
     margin-top: 5px;

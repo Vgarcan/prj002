@@ -10,6 +10,45 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    <link rel="stylesheet" href="assets/css/style.css">
     <style>
         /* <!-- Inject specific styles for this page using this STYLE tag --> */
+
+        /* Index Page */
+        /* Carousel Section */
+        .carousel-item img {
+            width: 100%;
+        }
+
+        /* Marketing Section */
+        .coulored-div-1 {
+            background-color: white;
+            border: 1px solid #0b066495;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .coulored-div-1 h2 {
+            background-color: #0b0664d7;
+            border: 1px solid #FF52B4;
+            border-radius: 15px;
+            color: #FF52B4;
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .marketing {
+            background-color: #4ceddd36;
+        }
+
+        .featurette div img {
+            height: auto;
+            vertical-align: middle;
+            border: 1px solid #FF52B4;
+            border-radius: 15px;
+            margin-top: 5px;
+        }
+
     </style>
 </head>
 
@@ -112,30 +151,46 @@
             </button>
         </div>
 
-
-
         <!-- Hero Section -->
+        <div class="conatiner-fluid px-4 text-center border-bottom hero-sect">
+            <h1 class="display-4 fw-bold my-3">DreamsReader</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Utilize our advanced artificial intelligence technology to translate the symbolic language of your dreams into meaningful insights. Discover the messages your subconscious mind is conveying, and gain a deeper understanding of yourself.
+                </p>
+            </div>
+            <div class="overflow-hidden" style="position: relative; max-height: 80vh;">
+                <div class="container px-5">
+                    <!-- Main Image -->
+                    <img src="assets/img/general/reader (1).png" class="img-fluid border rounded-3 shadow-lg main-image" alt="Example image" width="700" height="500" loading="lazy" style="position: relative; z-index: 2;">
+                    <!-- Left Image -->
+                    <img src="assets/img/general/astral-dream (2).png" class="d-none d-sm-block img-fluid border rounded-3 shadow-lg side-image" alt="Example image" width="525" height="375" loading="lazy" style="position: absolute; top: 50%; left: -100px; transform: translate(0%, -50%); z-index: 0;">
+                    <!-- Right Image -->
+                    <img src="assets/img/general/astral dream male (1).png" class="d-none d-sm-block img-fluid border rounded-3 shadow-lg side-image" alt="Example image" width="525" height="375" loading="lazy" style="position: absolute; top: 50%; right: -100px; transform: translate(0%, -50%); z-index: 0;">
+                </div>
+            </div>
+        </div>
         <!-- END Hero Section -->
 
         <!-- Double Row Section -->
         <!-- END Double Row Section -->
         
-
         <!-- MARKETING Section -->
         <div class="container-fluid marketing py-5">
             <!-- Coments Section -->
             <div class="container">
                 <!-- Three columns of text below the carousel -->
                 
-                <div class="row ">
+                <div class="row">
                     <!-- Comment #1 -->
-                    <div class="col-lg-4 pt-2 coulored-div-1 text-center mx-1">
+                    <div class="col-lg-4 pt-2 coulored-div-1 text-center">
+                        <!-- img size= w:140 h:140 -->
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                             preserveAspectRatio="xMidYMid slice" focusable="false">
                             <title>Placeholder</title>
                             <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
                         </svg>
+                        <!-- User Nickname and Comment -->
                         <h2 class="fw-normal">HappyDreamer42</h2>
                         <p>Dream-Reader.com has been a game-changer for me! The AI interpretation is surprisingly accurate,
                             and the
@@ -146,13 +201,15 @@
                             complexities of our subconscious minds. Highly recommended!</p>
                     </div><!--? /.col-lg-4 -->
                     <!-- Comment #2 -->
-                    <div class="col-lg-4 pt-2 coulored-div-1 text-center mx-1">
+                    <div class="col-lg-4 pt-2 coulored-div-1 text-center">
+                        <!-- img size= w:140 h:140 -->
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                             preserveAspectRatio="xMidYMid slice" focusable="false">
                             <title>Placeholder</title>
                             <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
                         </svg>
+                        <!-- User Nickname and Comment -->
                         <h2 class="fw-normal">DreamExplorer89</h2>
                         <p>Joining Dream-Reader.com was one of the best decisions I've made. The personalized dream journal
                             is a
@@ -166,12 +223,14 @@
                     </div><!--? /.col-lg-4 -->
                     <!-- Comment #3 -->
                     <div class="col-lg-4 pt-2 coulored-div-1 text-center">
+                        <!-- img size= w:140 h:140 -->
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                             preserveAspectRatio="xMidYMid slice" focusable="false">
                             <title>Placeholder</title>
                             <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
                         </svg>
+                        <!-- User Nickname and Comment -->
                         <h2 class="fw-normal">LucidDreamer123</h2>
                         <p>Dream-Reader.com has exceeded my expectations. The AI interpretations are surprisingly
                             insightful,

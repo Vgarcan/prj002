@@ -31,7 +31,6 @@ li .bi {
 }
 
 .nav-link:focus {
-    /* color: #FF52B4; */
     text-decoration: underline;
 }
 
@@ -54,7 +53,6 @@ li .bi {
 }
 
 .navbar-brand {
-    /* font-size: 200%; */
     padding: 0;
 }
 
@@ -104,40 +102,3 @@ li .bi:hover {
     }
 }
 
-/* Index Page */
-/* Carousel Section */
-.carousel-item img {
-    width: 100%;
-}
-
-/* Marketing Section */
-.coulored-div-1 {
-    background-color: white;
-    border: 1px solid #0b066495;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.coulored-div-1 h2 {
-    background-color: #0b0664d7;
-    border: 1px solid #FF52B4;
-    border-radius: 15px;
-    color: #FF52B4;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.marketing {
-    background-color: #4ceddd36;
-}
-
-.featurette div img {
-    height: auto;
-    vertical-align: middle;
-    border: 1px solid #FF52B4;
-    border-radius: 15px;
-    margin-top: 5px;
-}

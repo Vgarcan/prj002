@@ -1,12 +1,52 @@
-/* Global Styles */
+/* ----------Global Styles---------- */
 body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #f1f0eb;
+    background-color: #ffffff;
 }
 
-/* Header Section */
+.coloured-text-blue {
+    color: #0A0664;
+}
+
+.coloured-text-pink {
+    color: #FF52B4;
+}
+
+/* Buttons */
+.button-filled {
+    color: #0A0664;
+    background-color: #d2691e;
+}
+.button-filled:hover {
+    color: #0A0664;
+    background-color: rgba(210, 105, 30, 0.574);
+    border-color: #0A0664;
+} 
+
+
+.button-empty {
+    color: #0A0664;
+    border-color: #d2691e;
+}
+.button-empty:hover {
+    
+    color: #d2691e;
+    border: 5px solid;
+}
+
+.button-empty-alt {
+    color: #ffffff;
+    border-color: #FF52B4;
+}
+.button-empty-alt:hover {
+    
+    color: #FF52B4;
+    border: 5px solid;
+}
+
+/* ----------Header Section---------- */
 header {
     background-color: #0A0664;
     color: #a8a9b3;
@@ -58,6 +98,7 @@ li .bi {
 
 .navbar-brand ul {
     text-align: right;
+    
 }
 
 .navbar-toggler-icon {
@@ -71,7 +112,7 @@ li .bi {
     display: block;
 }
 
-/* Footer Section */
+/* ----------Footer Section---------- */
 footer {
     background-color: #0A0664;
     padding: 10px 0;
@@ -82,8 +123,8 @@ li .bi:hover {
     resize: 20px;
 }
 
-/* Responsive Styles */
-@media only screen and (max-width: 767px) {
+/* Resolution adjustments */
+@media (max-width: 768px) {
     .nav-logo-img {
         content: url('../img/logo/logo-banner-right.png');
         width: auto;

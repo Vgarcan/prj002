@@ -25,6 +25,11 @@
         }
 
         /* Heros Section */
+        #hero-sect {
+            margin-bottom: 0;
+            box-shadow: 0 8px 6px rgba(0, 0, 0, 0.485);
+        }
+
         #hero-top-imgs {
             position: relative;
             max-height: 80vh;
@@ -52,32 +57,78 @@
         }
 
         /* -----------Secondary Section----------- */
-        .bg-second-zone {
-            background-color: #096597be;
+        /* Comments Section */
+        .user-block {
+            position: relative;
         }
 
-        /* Comments Section */
+        .user-block > img{
+            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.485);
+            position: absolute;
+            left: 4%;
+            right: 0;
+            top: -37px;
+            z-index: 1;
+        }
+
+        .user-block > .alter-pos {
+            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.485);
+            position: absolute;
+            left: 58%;
+            right: 0;
+            top: -37px;
+            z-index: 1;
+        }
+
         .comment-box {
             background-color: white;
             border: 2px solid #0A0664;
+            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.485);
+            
+            position: relative;
         }
 
         .comment-box h2 {
             color: #FF52B4;
+            background-color: #ffffffac;
+            font-size: 2em;
+            border-radius: 15px;
+            
+            position: absolute;
+            z-index: 2;
+            top: 1.5em;
+            left: 1.1em;
+        }
+
+        .alter-pos ~ .comment-box h2  {
+            color: #FF52B4;
+            font-size: 2em;
+            border-radius: 15px;
+            background-color: #ffffffac;
+            
+            position: absolute;
+            z-index: 2;
+            top: 1.5em;
+            left: 0.3em;
         }
 
         .comment-box p {
             color: #0A0664;
+            margin-top: 75px;
+            padding-top: 0.7em;
+            margin-bottom: 30px;
         }
 
         /* Pink Banner */
         #banner-divider {
             background-color: #ff52b4ba;
+            box-shadow: 0 6px 8px 12px rgba(0, 0, 0, 0.485);
         }
 
         /* Features Section */
         .svg-bg-feat {
             background-color: #ff52b4ba;
+            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.485);
         }
 
         /* ----------- */
@@ -199,7 +250,7 @@
             </button>
         </div>
 
-        <section class="hero-sect">
+        <section id="hero-sect">
 
             <!-- Hero Section -->
 
@@ -232,13 +283,14 @@
                     </div>
                 </div>
             </div>
+
             <!-- divider -->
             <div class="container">
                 <hr class="featurette-divider">
             </div>
 
             <!-- second hero  -->
-            <div class="container px-4 py-5 my-5 text-center">
+            <div class="container px-4 py-5 mt-3 text-center">
                 <div class="container">
                     <img id="great-logo" class="d-block mx-auto mb-4" src="assets/img/logo/logo-white-blue.png"
                         alt="logo" width="70%">
@@ -369,10 +421,11 @@
             <!-- Coments Section -->
             <div class="container px-4 py-5" id="comm-sect">
                 <!-- Title -->
-                <h2 class="pb-2 border-bottom">Our users experiences</h2>
+                <h2 class=" border-bottom pb-2">Our users experiences</h2>
+                <div class="m-5"></div>
                 <div class="row d-flex mb-3">
                     <!-- Comment #1 -->
-                    <div class="container col-lg-4 pt-2 coulored-div-1 text-center p-4">
+                    <div class="container user-block col-lg-4 pt-2 coulored-div-1 text-center">
                         <!-- img size= w:140 h:140 -->
                         <img src="assets/img/profile_pics/IMG-20240103-WA0009.jpg" alt="profile picture"
                             class="bd-placeholder-img rounded-circle" width="140" height="140">
@@ -392,10 +445,10 @@
                         </div>
                     </div><!--? /.col-lg-4 -->
                     <!-- Comment #2 -->
-                    <div class="container col-lg-4 pt-2 coulored-div-1 text-center">
+                    <div class="container user-block col-lg-4 pt-2 coulored-div-1 text-center">
                         <!-- img size= w:140 h:140 -->
                         <img src="assets/img/profile_pics/IMG-20240103-WA0008.jpg" alt="profile picture"
-                            class="bd-placeholder-img rounded-circle" width="140" height="140">
+                            class="bd-placeholder-img rounded-circle alter-pos" width="140" height="140">
 
                         <!-- User Nickname and Comment -->
                         <div class="comment-box align-items-center p-3 rounded-5">
@@ -416,7 +469,7 @@
                         </div>
                     </div><!--? /.col-lg-4 -->
                     <!-- Comment #3 -->
-                    <div class="container col-lg-4 pt-2 coulored-div-1 text-center">
+                    <div class="container user-block col-lg-4 pt-2 coulored-div-1 text-center">
                         <!-- img size= w:140 h:140 -->
                         <img src="assets/img/profile_pics/IMG-20240103-WA0007.jpg" alt="profile picture"
                             class="bd-placeholder-img rounded-circle" width="140" height="140">
@@ -440,10 +493,6 @@
                 </div>
             </div><!-- /.row -->
             <!-- End Coments Section -->
-
-            
-
-
         </section>
         <!-- Sectrion Second Zone -->
 

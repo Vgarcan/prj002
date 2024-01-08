@@ -46,6 +46,11 @@ body {
     border: 5px solid;
 }
 
+/* Secondary Section */
+.bg-second-zone {
+    background-color: #096597be;
+}
+
 /* ----------Header Section---------- */
 header {
     background-color: #0A0664;
@@ -124,7 +129,7 @@ li .bi:hover {
 }
 
 /* Resolution adjustments */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .nav-logo-img {
         content: url('../img/logo/logo-banner-right.png');
         width: auto;

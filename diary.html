@@ -17,6 +17,15 @@
             color: chocolate;
         }
 
+
+        .attributes-box {
+            background-color: #096597be;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.485);
+        }
+
+        .icon-link-hover {
+            color: #FF52B4;
+        }
     </style>
 </head>
 
@@ -46,11 +55,11 @@
                     <ul class="navbar-nav ms-auto">
                         <!-- item #1 -->
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <!-- item #2 -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link active" aria-current="page" href="diary.html">Diary Example</a>
                         </li>
                         <!-- item #3 -->
                         <li class="nav-item">
@@ -58,7 +67,8 @@
                         </li>
                         <!-- item #4 -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <!-- <a class="nav-link button button-filled coloured-text-blue rounded-3" href="#">Log in</a> -->
+                            <a class="nav-link" href="#">Log in</a>
                         </li>
                     </ul>
                 </div>
@@ -71,158 +81,196 @@
     <body>
         <!-- ### CONTENT ### -->
         <!-- User Blog Section -->
-        <section id="user-blog container-fluid" class="bg-light">
+        <section id="user-blog" class="add-shadows pb-4">
             <!-- Imagen superior con H2 -->
-            <div class="conatiner-fluid img-fluid" style="background-image: url(assets/img/banners/banner\ \(5\).png); width: 100%; height: 200px; background-repeat: initial;background-size: cover;">
+            <div class="container-fluid align-items-center"
+                style="background-image: url(assets/img/banners/banner\ \(4\).png); width: 100%; height: 200px; background-repeat: initial;background-size: cover;">
                 <!-- <img src="assets/img/banners/banner (5).png" class="" style="width: 100%;" alt="Imagen de Usuario"> -->
-                <div class="col container justify-content-center">
+                <div class="container ">
                     <!--! Cambiar css -->
-                    <div class=" text-center ">
-                        <h2>User's Dreams</h2>
+                    <div class="text-center">
+                        <img src="assets/img/profile_pics/IMG-20240103-WA0008.jpg" alt="profile picture"
+                        class="bd-placeholder-img rounded-circle" width="140" height="140">
+                        <h2 class="coloured-text-pink rounded-3 " style="background-color: #ffffffca;">User's Dreams</h2>
                     </div>
                     <!--! Cambiar css -->
                 </div>
             </div>
 
-            <div class="container-fluid">
+            <div class="container">
                 <!-- Entradas del blog personal -->
                 <div class="container">
-                    <h2  class="mt-3">Your Diary's Entries</h2>
-                    <div class="row">
+                    <h2 class="mt-3 px-5"><span class="coloured-text-blue">Your Diary's Entries</span></h2>
+
+                    <!-- Aquí puedes colocar el contenido de las entradas del blog -->
+                    <div class="container blog-entries col-12">
+                        <!-- START THE FEATURETTES -->
+
+                        <hr class="featurette-divider">
+
                         <!-- Blog entry #1 -->
-                        <div class="col-12">
-                            <!-- Aquí puedes colocar el contenido de las entradas del blog -->
-                            <div class="blog-entries">
-                                <div class="container marketing">
-                                    <!-- START THE FEATURETTES -->
+                        <div class="row featurette align-items-center">
+                            <div class="container-fluid col-md-7 align-items-center">
+                                <h2 class="featurette-heading fw-normal lh-1"><span class="coloured-text-blue ">Title of
+                                        the post</span>   <sub><span
+                                            class="coloured-text-pink border rounded-3">24/8/23</span></sub></h2>
+                                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Illum aliquid eius suscipit consequuntur blanditiis commodi corrupti
+                                    dolorum! Excepturi ratione nisi ex, ut aspernatur autem debitis fugit
+                                    possimus quae obcaecati quia!</p>
 
-                                    <hr class="featurette-divider">
-
-                                    <div class="row featurette align-items-center">
-                                        <div class="col-md-7 align-items-center">
-                                            <h2 class="featurette-heading fw-normal lh-1">Title of the Post. <span
-                                                    class="text-body-secondary">24/8/23</span></h2>
-                                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                Illum aliquid eius suscipit consequuntur blanditiis commodi corrupti
-                                                dolorum! Excepturi ratione nisi ex, ut aspernatur autem debitis fugit
-                                                possimus quae obcaecati quia!</p>
-
-                                            <h5>Dream's attribute</h5>
-                                            <aside class="d-flex">
-                                                <ul>
-                                                    <li>Exotic</li>
-                                                    <li>Animalistic</li>
-                                                    <li>Flying</li>
-                                                </ul>
-                                                <ul>
-                                                    <li>Exotic</li>
-                                                    <li>Animalistic</li>
-                                                    <li>Flying</li>
-                                                </ul>
-                                            </aside>
-                                            <div
-                                                class="container-fluid d-flex justify-content-center align-items-center">
-                                                <button class="btn button-filled  d-inline-flex align-items-center m-3"
-                                                    type="button">
-                                                    Read Now
-                                                    <svg class="bi ms-1" width="20" height="20">
-                                                        <use xlink:href="#arrow-right-short"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5">
-                                            <img src="assets/img/chat_section/chat_pics (1).png" alt="">
-                                        </div>
+                                <div class="rounded-3 attributes-box pb-2">
+                                    <h5 class="coloured-text-pink ps-4 prounded-3" style="background-color: #ffffffca;">Dream's attribute</h5>
+                                    <div class="d-flex bg-light justify-content-center">
+                                        <ul>
+                                            <li>Exotic</li>
+                                            <li>Animalistic</li>
+                                            <li>Flying</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Exotic</li>
+                                            <li>Animalistic</li>
+                                            <li>Flying</li>
+                                        </ul>
                                     </div>
-
-                                    <hr class="featurette-divider">
-
-                                    <div class="row featurette align-items-center">
-                                        <div class="col-md-7 align-items-center  order-md-2">
-                                            <h2 class="featurette-heading fw-normal lh-1">Title of the Post. <span
-                                                    class="text-body-secondary">24/8/23</span></h2>
-                                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                Illum aliquid eius suscipit consequuntur blanditiis commodi corrupti
-                                                dolorum! Excepturi ratione nisi ex, ut aspernatur autem debitis fugit
-                                                possimus quae obcaecati quia!</p>
-
-                                            <h5>Dream's attribute</h5>
-                                            <aside class="d-flex ms-auto">
-                                                <ul>
-                                                    <li>Exotic</li>
-                                                    <li>Animalistic</li>
-                                                    <li>Flying</li>
-                                                </ul>
-                                                <ul>
-                                                    <li>Exotic</li>
-                                                    <li>Animalistic</li>
-                                                    <li>Flying</li>
-                                                </ul>
-                                            </aside>
-                                            <div
-                                                class="container-fluid d-flex justify-content-center align-items-center">
-                                                <button class="btn button-filled  d-inline-flex align-items-center m-3"
-                                                    type="button">
-                                                    Read Now
-                                                    <svg class="bi ms-1" width="20" height="20">
-                                                        <use xlink:href="#arrow-right-short"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5">
-                                            <img src="assets/img/chat_section/chat_pics (2).png" alt="">
-                                        </div>
-                                    </div>
-
-                                    <hr class="featurette-divider">
-
-                                    <div class="row featurette align-items-center">
-                                        <div class="col-md-7 align-items-center ">
-                                            <h2 class="featurette-heading fw-normal lh-1">Title of the Post. <span
-                                                    class="text-body-secondary">24/8/23</span></h2>
-                                            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                Illum aliquid eius suscipit consequuntur blanditiis commodi corrupti
-                                                dolorum! Excepturi ratione nisi ex, ut aspernatur autem debitis fugit
-                                                possimus quae obcaecati quia!</p>
-
-                                            <h5>Dream's attribute</h5>
-                                            <aside class="d-flex">
-                                                <ul>
-                                                    <li>Exotic</li>
-                                                    <li>Animalistic</li>
-                                                    <li>Flying</li>
-                                                </ul>
-                                                <ul>
-                                                    <li>Exotic</li>
-                                                    <li>Animalistic</li>
-                                                    <li>Flying</li>
-                                                </ul>
-                                            </aside>
-                                            <div
-                                                class="container-fluid d-flex justify-content-center align-items-center">
-                                                <button class="btn button-filled  d-inline-flex align-items-center m-3"
-                                                    type="button">
-                                                    Read Now
-                                                    <svg class="bi ms-1" width="20" height="20">
-                                                        <use xlink:href="#arrow-right-short"></use>
-                                                    </svg>
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5">
-                                            <img src="assets/img/chat_section/chat_pics (3).png" alt="">
-                                        </div>
-                                    </div>
-
-                                    <hr class="featurette-divider">
-
-                                    <!-- /END THE FEATURETTES -->
-
+                                </div>
+                                <div class="container-fluid d-flex justify-content-center align-items-center">
+                                    <button class="btn button-filled  d-inline-flex align-items-center m-3"
+                                        type="button">
+                                        Read Now
+                                        <svg class="bi ms-1" width="20" height="20">
+                                            <use xlink:href="#arrow-right-short"></use>
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
+                            <div class="col-md-5">
+                                <img src="assets/img/chat_section/chat_pics (1).png" class="border rounded-3 add-shadows" alt="">
+                            </div>
                         </div>
+
+                        <hr class="featurette-divider">
+
+                        <!-- Blog entry #2 -->
+                        <div class="row featurette align-items-center">
+                            <div class="container-fluid col-md-7 align-items-center order-md-2">
+                                <h2 class="featurette-heading fw-normal lh-1"><span class="coloured-text-blue ">Title of
+                                        the post</span>   <sub><span
+                                            class="coloured-text-pink border rounded-3">24/8/23</span></sub></h2>
+                                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Illum aliquid eius suscipit consequuntur blanditiis commodi corrupti
+                                    dolorum! Excepturi ratione nisi ex, ut aspernatur autem debitis fugit
+                                    possimus quae obcaecati quia!</p>
+
+                                <div class="rounded-3 attributes-box pb-2">
+                                    <h5 class="coloured-text-pink ps-4 prounded-3" style="background-color: #ffffffca;">Dream's attribute</h5>
+                                    <div class="d-flex bg-light justify-content-center">
+                                        <ul>
+                                            <li>Exotic</li>
+                                            <li>Animalistic</li>
+                                            <li>Flying</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Exotic</li>
+                                            <li>Animalistic</li>
+                                            <li>Flying</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="container-fluid d-flex justify-content-center align-items-center">
+                                    <button class="btn button-filled  d-inline-flex align-items-center m-3"
+                                        type="button">
+                                        Read Now
+                                        <svg class="bi ms-1" width="20" height="20">
+                                            <use xlink:href="#arrow-right-short"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="assets/img/chat_section/chat_pics (2).png" class="border rounded-3 add-shadows" alt="">
+                            </div>
+                        </div>
+                        <!-- <div class="row featurette align-items-center">
+                            <div class="col-md-7 align-items-center  order-md-2">
+                                <h2 class="featurette-heading fw-normal lh-1">Title of the Post. <span
+                                        class="text-body-secondary">24/8/23</span></h2>
+                                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Illum aliquid eius suscipit consequuntur blanditiis commodi corrupti
+                                    dolorum! Excepturi ratione nisi ex, ut aspernatur autem debitis fugit
+                                    possimus quae obcaecati quia!</p>
+
+                                <h5>Dream's attribute</h5>
+                                <div class="d-flex ms-auto">
+                                    <ul>
+                                        <li>Exotic</li>
+                                        <li>Animalistic</li>
+                                        <li>Flying</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Exotic</li>
+                                        <li>Animalistic</li>
+                                        <li>Flying</li>
+                                    </ul>
+                                </div>
+                                <div class="container-fluid d-flex justify-content-center align-items-center">
+                                    <button class="btn button-filled  d-inline-flex align-items-center m-3"
+                                        type="button">
+                                        Read Now
+                                        <svg class="bi ms-1" width="20" height="20">
+                                            <use xlink:href="#arrow-right-short"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="assets/img/chat_section/chat_pics (2).png" class="border rounded-3 box-shadow" alt="">
+                            </div>
+                        </div> -->
+
+                        <hr class="featurette-divider">
+
+                        <!-- Blog entry #3 -->
+                        <div class="row featurette align-items-center">
+                            <div class="container-fluid col-md-7 align-items-center">
+                                <h2 class="featurette-heading fw-normal lh-1"><span class="coloured-text-blue ">Title of
+                                        the post</span>   <sub><span
+                                            class="coloured-text-pink border rounded-3">24/8/23</span></sub></h2>
+                                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Illum aliquid eius suscipit consequuntur blanditiis commodi corrupti
+                                    dolorum! Excepturi ratione nisi ex, ut aspernatur autem debitis fugit
+                                    possimus quae obcaecati quia!</p>
+
+                                <div class="rounded-3 attributes-box pb-2">
+                                    <h5 class="coloured-text-pink ps-4 prounded-3" style="background-color: #ffffffca;">Dream's attribute</h5>
+                                    <div class="d-flex bg-light justify-content-center">
+                                        <ul>
+                                            <li>Exotic</li>
+                                            <li>Animalistic</li>
+                                            <li>Flying</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Exotic</li>
+                                            <li>Animalistic</li>
+                                            <li>Flying</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="container-fluid d-flex justify-content-center align-items-center">
+                                    <button class="btn button-filled  d-inline-flex align-items-center m-3"
+                                        type="button">
+                                        Read Now
+                                        <svg class="bi ms-1" width="20" height="20">
+                                            <use xlink:href="#arrow-right-short"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="assets/img/chat_section/chat_pics (3).png" class="border rounded-3 add-shadows" alt="">
+                            </div>
+                        </div>
+                        <!-- /END THE FEATURETTES -->
                     </div>
                 </div>
             </div>
@@ -236,16 +284,17 @@
                     <div class="row">
                         <!-- Encabezado centrado -->
                         <div class="col-12 text-center">
-                            <h2 class="mt-3">Community's latest Posts</h2>
+                            <h2 class="my-3">Community's latest Posts</h2>
                         </div>
                         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
+                                <!-- slide #1 -->
                                 <div class="carousel-item active" data-bs-interval="10000">
                                     <div class="container">
                                         <div class="row mb-2">
                                             <div class="col-md-6">
                                                 <div
-                                                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                                    class="row add-shadows g-0 border rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                                                     <div class="col d-none d-lg-block">
                                                         <img src="assets/img/general/nightmare (3).png" width="100%"
                                                             height="100%" style="object-fit: cover; " alt="">
@@ -266,9 +315,9 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div
-                                                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                                    class="row add-shadows g-0 border rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                                                     <div class="col d-none d-lg-block">
-                                                        <img src="assets/img/general/nightmare (3).png" width="100%"
+                                                        <img src="assets/img/general/astral dream male (1).png" width="100%"
                                                             height="100%" style="object-fit: cover; " alt="">
                                                     </div>
                                                     <div class="col p-4 d-flex flex-column position-static">
@@ -289,14 +338,15 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- slide #2 -->
                                 <div class="carousel-item" data-bs-interval="10000">
                                     <div class="container">
                                         <div class="row mb-2">
                                             <div class="col-md-6">
                                                 <div
-                                                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                                    class="row add-shadows g-0 border rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                                                     <div class="col d-none d-lg-block">
-                                                        <img src="assets/img/general/nightmare (3).png" width="100%"
+                                                        <img src="assets/img/general/dreams.png" width="100%"
                                                             height="100%" style="object-fit: cover; " alt="">
                                                     </div>
                                                     <div class="col p-4 d-flex flex-column position-static">
@@ -315,9 +365,9 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div
-                                                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                                    class="row add-shadows g-0 border rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                                                     <div class="col d-none d-lg-block">
-                                                        <img src="assets/img/general/nightmare (3).png" width="100%"
+                                                        <img src="assets/img/general/astral-dream (1).png" width="100%"
                                                             height="100%" style="object-fit: cover; " alt="">
                                                     </div>
                                                     <div class="col p-4 d-flex flex-column position-static">
@@ -338,14 +388,15 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- slide #3 -->
                                 <div class="carousel-item" data-bs-interval="10000">
                                     <div class="container">
                                         <div class="row mb-2">
                                             <div class="col-md-6">
                                                 <div
-                                                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                                    class="row add-shadows g-0 border rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                                                     <div class="col d-none d-lg-block">
-                                                        <img src="assets/img/general/nightmare (3).png" width="100%"
+                                                        <img src="assets/img/general/astral-dream (2).png" width="100%"
                                                             height="100%" style="object-fit: cover; " alt="">
                                                     </div>
                                                     <div class="col p-4 d-flex flex-column position-static">
@@ -364,9 +415,9 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div
-                                                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                                    class="row add-shadows g-0 border rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                                                     <div class="col d-none d-lg-block">
-                                                        <img src="assets/img/general/nightmare (3).png" width="100%"
+                                                        <img src="assets/img/general/nightmare (1).png" width="100%"
                                                             height="100%" style="object-fit: cover; " alt="">
                                                     </div>
                                                     <div class="col p-4 d-flex flex-column position-static">
@@ -386,6 +437,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- controllers -->
                                 <button class="carousel-control-prev" type="button"
                                     data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

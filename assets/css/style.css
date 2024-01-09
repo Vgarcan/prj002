@@ -14,6 +14,10 @@ body {
     color: #FF52B4;
 }
 
+.add-shadows {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.485);
+}
+
 /* Buttons */
 .button-filled {
     color: #0A0664;

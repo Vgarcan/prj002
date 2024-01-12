@@ -132,7 +132,7 @@ li .bi:hover {
     resize: 20px;
 }
 
-/* Resolution adjustments */
+/* ---x---x---x---Resolution adjustments---x---x---x--- */
 @media (max-width: 767px) {
     .nav-logo-img {
         content: url('../img/logo/logo-banner-right.png');

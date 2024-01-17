@@ -8,20 +8,29 @@
 3. [Project Structure](#project-structure)
    - [Main Pages](#main-pages)
    - [Additional Pages (Mockups)](#additional-pages-mockups)
-4. [Collaborative Efforts](#collaborative-efforts)
-5. [Current State and Future Plans](#current-state-and-future-plans)
+4. [User Experience](#user-experience)
+5. [Testing](#testing)
+    - [HTML Validation](#HTML-validation)
+    - [CSS Validation](#CSS-validation)
+    - [Accessibility](#accessibility)
+    - [Lighthouse Validation](#lighthouse-validation)
+    - [Device testing](#performing-tests-on-various-devices)
+    - [Browser compatibility](#browser-compatability)
+   - [User Stories Testing](#user-stories-testing)
+6. [Collaborative Efforts](#collaborative-efforts)
+7. [Current State and Future Plans](#current-state-and-future-plans)
    - [Current State](#current-state)
    - [Future Plans](#future-plans)
-6. [Deployment](#deployment)
-7. [License](#license)
-8. [Bugs and Challenges](#bugs-and-challenges)
+8. [Deployment](#deployment)
+9. [License](#license)
+10. [Bugs and Challenges](#bugs-and-challenges)
 
 
 # Introduction
 
 
 - **Project Overview:**
-Welcome to the Dream Reader Project! This is an ongoing endeavor to create a platform that allows users to explore and share their dreams. The project is currently in the example stage, serving as a demonstration of what it will become in the future.
+This is an ongoing endeavor to create a platform that allows users to explore and share their dreams. The project is currently in the example stage, serving as a demonstration of what it will become in the future.
 
 
 - **Purpose:**
@@ -31,8 +40,8 @@ The purpose of this project is to provide users with a platform where they can d
 - **Goals:**
 1. **Educational Example:** The project is currently serving as an example to showcase its potential features and functionality.
 2. **Free Access:** While access is limited during the example phase, the goal is to offer free access to users in the future.
+3. **Comprehensive Dream Database:** Establishing a robust and diverse dream database is a key goal. This involves collecting a wide range of dream entries from users to ensure the AI interpreters gain insights into various dream patterns and specifics. The aim is to build a foundation for effective dream interpretation across different demographics, enhancing the platform's capability to provide accurate and personalized dream insights for users from all walks of life.
 
-Stay tuned as we work towards expanding the project and bringing more exciting features to dream enthusiasts!
 
 # Technologies Used
 
@@ -93,6 +102,164 @@ The CSS for the project structure is organized to maintain consistency and respo
    - Each main page has its own stylesheet, focusing on specific styles relevant to that page. This allows for targeted customization while maintaining a cohesive overall design.
 
 By adopting these strategies, the CSS management ensures a visually pleasing and user-friendly interface while accommodating the unique characteristics of each page.
+
+# User Experience
+
+## Target Audience
+Dream enthusiasts exploring a platform to document, explore, and share their dreams.
+Individuals intrigued by the world of dreams, interested in the interpretation and analysis of dream content.
+Collaborators and contributors passionate about the intersection of artificial intelligence and dream exploration.
+Users with dream-related content, stories, or experiences they want to share with the community.
+
+## User Requirements and Expectations
+1. **Intuitive Navigation:**
+   - Users expect a simple, smart, and intuitive navigation system to explore different sections of the Dream Reader platform.
+
+2. **Functional Links:**
+   - The platform must provide links and functions that work seamlessly, allowing users to navigate between pages, access dream entries, and engage with the community.
+
+3. **Visually Appealing Design:**
+   - Users anticipate a visually appealing and responsive website that enhances the dream exploration experience.
+
+4. **Contact Information:**
+   - All necessary contact information should be easily accessible, providing users with the means to reach out for support, collaboration, or general feedback.
+
+5. **Accessibility:**
+   - The platform should maintain a good level of accessibility, ensuring that users of all abilities can engage with and enjoy the Dream Reader experience.
+
+## User Stories
+
+### First-time User
+- **Introduction Clarity:**
+  - As a first-time user, I want a clear and concise introduction to understand the purpose and offerings of the Dream Reader platform.
+
+- **User-Friendly Navigation:**
+  - As a first-time user, I expect an easy-to-navigate website that allows me to explore dream entries, understand the platform's features, and recognize its unique value.
+
+- **Engaging Content:**
+  - As a first-time user, I want to quickly assess if the platform aligns with my interests in documenting and exploring dreams.
+
+- **Value Proposition:**
+  - As a first-time user, I look for elements that highlight the unique value and experience offered by Dream Reader in comparison to other platforms.
+
+### Returning User
+
+- **Contact Details:**
+  - As a returning user, I need easily accessible contact details such as contact form to connect with Dream Reader for inquiries.
+
+- **Discover New Content:**
+  - As a returning user, I aim to explore new dream entries, features, or community posts on the platform.
+
+- **Social Media Presence:**
+  - As a returning user, I seek links to Dream Reader's presence on social media platforms for updates and community engagement.
+
+- **Interaction Opportunities:**
+  - As a returning user, I want to engage with the community and staff, especially if I have dream-related content to share or contribute.
+
+### Site Owner
+- **Mission Communication:**
+  - As the site owner, I aim to communicate the mission of Dream Reader swiftly and effectively to users.
+
+- **Value Proposition Clarity:**
+  - As the site owner, I want users to understand the specific value of Dream Reader in the realm of dream exploration.
+
+- **Advocacy for Dream Exploration:**
+  - As the site owner, I strive to spread awareness about the value of exploring dreams, both from an individual and collective perspective.
+
+- **Item Acquisition:**
+  - As the site owner, my goal is to acquire more dream-related content and contributions to enhance the Dream Reader platform.
+
+- **User Accessibility:**
+  - As the site owner, I want to ensure that users can easily reach out to Dream Reader through accessible contact options.
+
+- **AI Interpretation Focus:**
+  - As the site owner, my goal is to ensure that the AI system  for dream interpretation remains focused on its intended purpose.
+
+
+# Testing
+   ## HTML Validation
+   ## CSS Validation
+   ## Accessibility
+   ## Lighthouse Validation
+   ## Device testing
+   ## Browser compatibility
+   ## User Stories Testing
+
+**First-time User**
+
+1. **Introduction Clarity:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Platform Introduction | Visit the home page and read introductory content | Clear understanding of the platform's purpose | Works as expected |
+
+2. **User-Friendly Navigation:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Navigation System | Explore different sections using the navigation bar | Intuitive navigation experience | Works as expected |
+
+3. **Engaging Content:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Explore Dream Entries | Navigate to dream entries and explore content | Engaging and interesting dream entries | Works as expected |
+
+4. **Value Proposition:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Recognize Unique Value | Identify elements showcasing the platform's unique value | Clear understanding of Dream Reader's value | Works as expected |
+
+**Returning User**
+
+1. **Contact Details:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Access Contact Information | Find and use provided contact details | Easily accessible contact form | Works as expected |
+
+2. **Discover New Content:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Explore New Entries | Navigate and discover new dream entries or features | New and engaging content visible on user's page | Works as expected |
+
+3. **Social Media Presence:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Find Social Media Links | Locate links to Dream Reader's social media | Easy access to social media platforms for updates | Not Working yet |
+
+4. **Interaction Opportunities:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Engage with Community | Participate in community interactions | Ability to engage with the community and staff | Not Working yet |
+
+**Site Owner**
+
+1. **Mission Communication:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Communicate Mission | Ensure users swiftly understand the mission | Clear and concise communication of Dream Reader's mission | Works as expected |
+
+2. **Value Proposition Clarity:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Clarify Value Proposition | Convey the specific value of Dream Reader | Users understand the unique value proposition | Works as expected |
+
+3. **Advocacy for Dream Exploration:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Spread Awareness | Advocate for dream exploration | Effective spread of awareness about dream exploration | Works as expected |
+
+4. **Item Acquisition:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Acquire Dream-Related Content | Work on acquiring more dream-related content | Successful acquisition of diverse dream entries | Not Working Yet |
+
+5. **User Accessibility:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | Ensure Accessibility | Guarantee users can easily contact Dream Reader | Users can easily reach out through the contact form | Works as expected |
+
+6. **AI Interpretation Focus:**
+   | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+   |-------------|------------|---------------------|-------------------|
+   | AI Interpretation Scope | Collaborate with Andryu Schittone to emphasize that the AI's primary role is dream interpretation | The AI system generates insightful and relevant dream interpretations without deviating from its core function | Not Working yet |
 
 # Collaborative Efforts
 
@@ -236,4 +403,6 @@ To manage CSS validation challenges related to Bootstrap, I implemented the foll
    - In the project's documentation, I provided clarity on the use of Bootstrap and acknowledged that validation errors might occur due to its unique styling approach.
 
 These strategies helped maintain a balance between utilizing the powerful features of Bootstrap and ensuring a clean, error-free CSS validation process. Users accessing the project can understand the intentional use of Bootstrap and its impact on validation results.
+
+
 

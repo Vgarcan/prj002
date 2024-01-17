@@ -52,7 +52,7 @@ body {
 
 /* Secondary Section */
 .bg-second-zone {
-    background-color: #096597be;
+    background-color: #096597eb;
 }
 
 /* ----------Header Section---------- */
@@ -65,6 +65,7 @@ header {
 /* Navigation Styles */
 /* Colors for Navbar */
 .navbar-brand:hover,
+.nav-item > .button-filled:hover,
 .nav-link:hover,
 li .bi:hover,
 #branding {
@@ -109,10 +110,14 @@ li .bi {
     text-align: right;
     
 }
+.nav-item > .button-filled {
+    color: #0A0664;
+}
 
 .navbar-toggler-icon {
     color: #FF52B4;
 }
+
 
 /* Featurette Section */
 .featurette img {
@@ -129,7 +134,7 @@ footer {
 
 li .bi:hover {
     transform: scale(2);
-    resize: 20px;
+    size: 20px;
 }
 
 /* ---x---x---x---Resolution adjustments---x---x---x--- */

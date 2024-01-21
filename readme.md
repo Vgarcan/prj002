@@ -324,13 +324,13 @@ If you prefer local deployment, follow these steps:
 
 1. **Clone the Repository:**
    - Clone the GitHub repository to your local machine using the following command:
-     ```
+     ```bash
      git clone https://github.com/Vgarcan/prj002.git
      ```
 
 2. **Navigate to the Project Folder:**
    - Open a terminal or command prompt and navigate to the folder containing the downloaded project files:
-     ```
+     ```bash
      cd prj002
      ```
 

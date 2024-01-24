@@ -58,14 +58,28 @@ The content of the Dream Reader Project is organized across different main pages
 ## Main Pages
 
 1. **Index (Home):**
+   <details><summary><b>Basic Structure</b></summary>
+   <img src="assets/img/wildframe/DReader-Index.png"></details>
+   <hr>
+
    - *Purpose:* To introduce users to the project, provide general information, and encourage user registration.
    - *Design:* The page features a welcoming layout with essential project details, a call-to-action for user engagement, and clear navigation to other sections. The goal is to create a hub where users can learn about the project and its features.
+   
 
+   
 2. **Diary Example:**
+   <details><summary><b>Basic Structure</b></summary>
+   <img src="assets/img/wildframe/DReader-upage.png"></details>
+   <hr>
+   
    - *Purpose:* To demonstrate how a user's dream diary might look, showcasing dream entries, AI-generated attributes, and community posts.
    - *Design:* The page is structured like a typical dream diary, featuring dream entries with titles, dates, explanations, and AI-generated attributes. The community posts section is presented as a slider, encouraging users to explore and engage with shared dreams.
 
 3. **Contact Us:**
+   <details><summary><b>Basic Structure</b></summary>
+   <img src="assets/img/wildframe/DReader-cpage.png"></details>
+   <hr>
+   
    - *Purpose:* To allow users to reach out for support, collaboration, or general feedback.
    - *Design:* The page is designed as a single section, focusing on simplicity and user-friendly communication. It includes information on why users might want to contact the project, presented with icons for visual appeal. Includes a user-friendly form for easy communication.
 
@@ -177,13 +191,49 @@ Users with dream-related content, stories, or experiences they want to share wit
 
 
 # Testing
-   ## HTML Validation
-   ## CSS Validation
-   ## Accessibility
-   ## Lighthouse Validation
-   ## Device testing
-   ## Browser compatibility
-   ## User Stories Testing
+
+## HTML Validation
+The HTML code has been validated using the W3C Markup Validation Service ([W3C Validator](https://validator.w3.org/)). This ensures that the HTML adheres to the appropriate standards, enhancing compatibility and minimizing potential issues.
+
+## CSS Validation
+CSS code has been validated using the W3C CSS Validation Service ([W3C CSS Validator](https://jigsaw.w3.org/css-validator/)). This validation helps maintain a clean and error-free stylesheet, contributing to a consistent and visually appealing design.
+
+## Accessibility
+Accessibility has been a priority throughout the development process. The project has been tested using various tools and manual checks to ensure it complies with accessibility standards, providing an inclusive experience for users with diverse needs.
+
+## Lighthouse Validation
+The project's performance, accessibility, best practices, SEO, and Progressive Web App (PWA) features have been assessed using Lighthouse, an open-source tool for improving web page quality. This validation helps optimize the project for a seamless user experience.
+
+## Device Testing
+The project has undergone testing on various devices, including desktops, laptops, tablets, and smartphones. This ensures responsiveness and functionality across different screen sizes and resolutions.
+
+<details><summary><b>Desktop Testing</b></summary>
+   <img src="assets/img/readme-pics/brws-test-desktop.jpg"></details>
+   <hr>
+
+<details><summary><b>Tablet Testing</b></summary>
+   <img src="assets/img/readme-pics/brws-test-tablet.jpg"></details>
+   <hr>
+
+<details><summary><b>Movil Testing</b></summary>
+   <img src="assets/img/readme-pics/brws-test-mobil.jpg"></details>
+   <hr>
+
+## Browser Compatibility
+Extensive testing has been conducted on multiple browsers, including but not limited to Chrome, Firefox, Safari, and Microsoft Edge. The project aims for consistent performance and appearance across these popular browsers.
+
+<details><summary><b>Desktop Testing</b></summary>
+   <img src="assets/img/readme-pics/brws-test-desktop.jpg"></details>
+   <hr>
+
+<details><summary><b>Tablet Testing</b></summary>
+   <img src="assets/img/readme-pics/brws-test-tablet.jpg"></details>
+   <hr>
+
+<details><summary><b>Movil Testing</b></summary>
+   <img src="assets/img/readme-pics/brws-test-mobil.jpg"></details>
+   <hr>
+
 
 **First-time User**
 

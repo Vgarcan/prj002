@@ -50,6 +50,16 @@ body {
     border: 5px solid;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:#d2691e;
+    text-decoration: underline;
+}
+
+
 /* Secondary Section */
 .bg-second-zone {
     background-color: #096597eb;

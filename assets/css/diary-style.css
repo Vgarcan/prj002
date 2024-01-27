@@ -1,0 +1,29 @@
+.featurette-divider {
+    color: chocolate;
+}
+
+
+.attributes-box {
+    background-color: #096597be;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.485);
+}
+
+.icon-link {
+    color: #4ef9ff;
+    text-decoration: none;
+}
+
+.icon-link:hover {
+    color: #e4813a;
+    text-decoration:underline;
+}
+
+div>h3 {
+    font-size: 24px;
+}
+
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}

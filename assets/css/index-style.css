@@ -1,0 +1,154 @@
+
+
+/* ----------Index Page---------- */
+/* Carousel Section */
+.carousel-item img {
+    width: 100%;
+}
+
+.carousel-caption {
+    padding-bottom: 0;
+}
+
+/* Heros Section */
+#hero-sect {
+    margin-bottom: 0;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.485);
+}
+
+#hero-top-imgs {
+    position: relative;
+    max-height: 80vh;
+}
+
+#hero-top-imgs .main-image {
+    position: relative;
+    z-index: 2;
+}
+
+#hero-top-imgs .side-image-left {
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    transform: translate(0%, -50%);
+    z-index: 0;
+}
+
+#hero-top-imgs .side-image-right {
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    transform: translate(0%, -50%);
+    z-index: 0;
+}
+
+#great-logo {
+    width: 70%;
+}
+
+/* -----------Secondary Section----------- */
+/* Comments Section */
+.user-block {
+    position: relative;
+}
+
+.user-block>img {
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.485);
+    position: absolute;
+    left: 4%;
+    right: 0;
+    top: -37px;
+    z-index: 1;
+}
+
+.user-block>.alter-pos {
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.485);
+    position: absolute;
+    left: 58%;
+    right: 0;
+    top: -37px;
+    z-index: 1;
+}
+
+.comment-box {
+    background-color: white;
+    border: 2px solid #0A0664;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.485);
+
+    position: relative;
+}
+
+.comment-box h2 {
+    color: #FF52B4;
+    background-color: #ffffffac;
+    font-size: 2em;
+    border-radius: 15px;
+
+    position: absolute;
+    z-index: 2;
+    top: 1.5em;
+    left: 1.1em;
+}
+
+.alter-pos~.comment-box h2 {
+    color: #FF52B4;
+    font-size: 2em;
+    border-radius: 15px;
+    background-color: #ffffffac;
+
+    position: absolute;
+    z-index: 2;
+    top: 1.5em;
+    left: 0.3em;
+}
+
+.comment-box p {
+    color: #0A0664;
+    margin-top: 75px;
+    padding-top: 0.7em;
+    margin-bottom: 30px;
+}
+
+/* Pink Banner */
+#banner-divider {
+    background-color: #ff52b4ba;
+    box-shadow: 0 6px 8px 12px rgba(0, 0, 0, 0.485);
+}
+
+/* Features Section */
+.svg-bg-feat {
+    background-color: #ff52b4ba;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.485);
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+/* ----------- */
+
+.featurette-divider {
+    color: chocolate;
+}
+
+/* Resolution adjustments */
+@media screen and (max-width: 768px) {
+    #great-logo {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .comment-box h2 {
+        color: #FF52B4;
+        background-color: #ffffffac;
+        font-size: 1.6em;
+        border-radius: 15px;
+
+        position: absolute;
+        z-index: 2;
+        top: 1.5em;
+        left: 1.1em;
+    }
+
+}

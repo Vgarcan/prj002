@@ -195,8 +195,23 @@ Users with dream-related content, stories, or experiences they want to share wit
 ## HTML Validation
 The HTML code has been validated using the W3C Markup Validation Service ([W3C Validator](https://validator.w3.org/)). This ensures that the HTML adheres to the appropriate standards, enhancing compatibility and minimizing potential issues.
 
+<details><summary><b>INDEX Validation</b></summary>
+   <img src="assets/img/readme-pics/val-index.jpg"></details>
+   <hr>
+<details><summary><b>DIARY Validation</b></summary>
+   <img src="assets/img/readme-pics/val-diary.jpg"></details>
+   <hr>
+   <!--! Change img  -->
+<details><summary><b>CONTACT US Validation</b></summary>
+   <img src="assets/img/readme-pics/val-index.jpg"></details>
+   <hr>
+
 ## CSS Validation
 CSS code has been validated using the W3C CSS Validation Service ([W3C CSS Validator](https://jigsaw.w3.org/css-validator/)). This validation helps maintain a clean and error-free stylesheet, contributing to a consistent and visually appealing design.
+
+<details><summary><b>CSS Advice</b></summary>
+   <img src="assets/img/readme-pics/css-advice.jpg"></details>
+   <hr>
 
 ## Accessibility
 Accessibility has been a priority throughout the development process. The project has been tested using various tools and manual checks to ensure it complies with accessibility standards, providing an inclusive experience for users with diverse needs.

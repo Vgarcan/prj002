@@ -131,37 +131,22 @@
 @media screen and (max-width: 575px) {
     
     .user-block>img {
-    left: 8%;
-    right: 0;
-    top: -37px;
-    z-index: 1;
+        left: 8%;
+        
     }
     
     .user-block>.alter-pos {
         left: 65%;
-        right: 0;
-        top: -37px;
-        z-index: 1;
+        
     }
 
     .comment-box h2 {
-  
         font-size: 2em;
-
-        position: absolute;
-        z-index: 2;
-        top: 1.5em;
         left: 20%;
     }
     
     .alter-pos~.comment-box h2 {
-        font-size: 2em;
-
-        background-color: #ffffffac;
-    
-        position: absolute;
-        z-index: 2;
-        top: 1.5em;
+        font-size: 2em;    
         left: 20%;
     }
 }

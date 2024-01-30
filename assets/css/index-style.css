@@ -55,17 +55,8 @@
 .user-block>img {
     box-shadow: 0 10px 12px rgba(0, 0, 0, 0.485);
     position: absolute;
-    left: 4%;
-    right: 0;
-    top: -37px;
-    z-index: 1;
-}
-
-.user-block>.alter-pos {
-    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.485);
-    position: absolute;
-    left: 58%;
-    right: 0;
+    left: 32%;
+    /* right: 0; */
     top: -37px;
     z-index: 1;
 }
@@ -81,25 +72,13 @@
 .comment-box h2 {
     color: #FF52B4;
     background-color: #ffffffac;
-    font-size: 2em;
+    font-size: 1.75em;
     border-radius: 15px;
 
     position: absolute;
     z-index: 2;
     top: 1.5em;
-    left: 1.1em;
-}
-
-.alter-pos~.comment-box h2 {
-    color: #FF52B4;
-    font-size: 2em;
-    border-radius: 15px;
-    background-color: #ffffffac;
-
-    position: absolute;
-    z-index: 2;
-    top: 1.5em;
-    left: 0.3em;
+    left: 9%;
 }
 
 .comment-box p {
@@ -132,23 +111,77 @@
 }
 
 /* Resolution adjustments */
+
+@media screen and (max-width: 993px) {
+    .user-block>img {
+        left: 40%;
+    }
+
+    .comment-box h2 {
+        left: 28%;
+    }
+}
 @media screen and (max-width: 768px) {
     #great-logo {
         width: 100%;
     }
+
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 575px) {
+    
+    .user-block>img {
+    left: 8%;
+    right: 0;
+    top: -37px;
+    z-index: 1;
+    }
+    
+    .user-block>.alter-pos {
+        left: 65%;
+        right: 0;
+        top: -37px;
+        z-index: 1;
+    }
+
     .comment-box h2 {
-        color: #FF52B4;
-        background-color: #ffffffac;
-        font-size: 1.6em;
-        border-radius: 15px;
+  
+        font-size: 2em;
 
         position: absolute;
         z-index: 2;
         top: 1.5em;
-        left: 1.1em;
+        left: 20%;
+    }
+    
+    .alter-pos~.comment-box h2 {
+        font-size: 2em;
+
+        background-color: #ffffffac;
+    
+        position: absolute;
+        z-index: 2;
+        top: 1.5em;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 452px) {
+
+    .user-block>.alter-pos {
+        left: 52%;
+        
+        
     }
 
+    .comment-box h2 {
+        font-size: 1.5em;
+        
+    }
+
+    .alter-pos~.comment-box h2 {
+        font-size: 1.5em;
+        left: 15%;
+        
+    }
 }

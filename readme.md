@@ -1,4 +1,4 @@
-![Texto Alternativo](assets\img\logo\logo-main-sm-no_bkg.png)
+![Main LOGO](assets\img\logo\logo-main-sm-no_bkg.png)
 
 
 ## Table of Contents
@@ -8,14 +8,16 @@
 3. [Project Structure](#project-structure)
    - [Main Pages](#main-pages)
    - [Additional Pages (Mockups)](#additional-pages-mockups)
+   - [CSS Management for Project Structure](#css-management-for-project-structure)
+   - [Colors](#colors)
 4. [User Experience](#user-experience)
 5. [Testing](#testing)
-    - [HTML Validation](#HTML-validation)
-    - [CSS Validation](#CSS-validation)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
     - [Accessibility](#accessibility)
     - [Lighthouse Validation](#lighthouse-validation)
-    - [Device testing](#performing-tests-on-various-devices)
-    - [Browser compatibility](#browser-compatability)
+    - [Device testing](#device-testing)
+    - [Browser Compatibility](#browser-compatibility)
    - [User Stories Testing](#user-stories-testing)
 6. [Collaborative Efforts](#collaborative-efforts)
 7. [Current State and Future Plans](#current-state-and-future-plans)
@@ -117,6 +119,30 @@ The CSS for the project structure is organized to maintain consistency and respo
 
 By adopting these strategies, the CSS management ensures a visually pleasing and user-friendly interface while accommodating the unique characteristics of each page.
 
+## Colors
+
+The color scheme has been thoughtfully curated to evoke a dreamlike experience for users. Specific color choices aim to create a nocturnal ambiance, enhancing the overall theme of dreams. 
+
+- **Blues for Nighttime Ambiance:**
+  - Tonalities of blue are employed in the navigation bar and footer, contributing to a nighttime environment. This choice aims to immerse users in a dreamy atmosphere as they navigate through the platform.
+
+- **Strategic Use of Pink:**
+  - Pink is strategically used to draw attention to key elements. For instance, the "Register for Free" call-to-action features pink text, emphasizing its importance. The pink color is also applied to elements related to the dream diary, capturing the user's focus and adding a playful touch to the interface.
+
+<img src="assets/img/readme-pics/pink-usage.jpg"></details>
+
+- **Contrast with Black Text:**
+  - Black text is predominantly used for readability. However, when emphasis is required, such as in the "Free" button or diary sections, pink is introduced to create visual contrast.
+
+- **Dreamlike White and Pastels:**
+  - The first section is predominantly white, evoking a dreamy and ethereal quality. The use of whites aims to convey an otherworldly, dream-like aesthetic. In contrast, the second section features soft pastel blues, creating a harmonious blend with pink, contributing to an innocent and playful overall design.
+
+  <img src="assets/img/readme-pics/pastel-usage.jpg"></details>
+
+
+The careful selection and combination of colors aim to foster a sense of exploration reminiscent of childhood innocence, inviting users to engage with the platform as if embarking on a whimsical adventure.
+
+
 # User Experience
 
 ## Target Audience
@@ -207,7 +233,7 @@ The HTML code has been validated using the W3C Markup Validation Service ([W3C V
    <hr>
 
 ## CSS Validation
-CSS code has been validated using the W3C CSS Validation Service ([W3C CSS Validator](https://jigsaw.w3.org/css-validator/)). This validation helps maintain a clean and error-free stylesheet, contributing to a consistent and visually appealing design.
+CSS code has been validated using the W3C CSS Validation Service ([W3C CSS Validator](https://jigsaw.w3.org/css-validator/)). It's important to note that while certain warnings were received, these warnings are related to Bootstrap styles. Our project is designed to avoid potential issues associated with Bootstrap defaults, and these warnings do not impact the functionality or appearance of our specific styles.
 
 <details><summary><b>CSS Advice</b></summary>
    <img src="assets/img/readme-pics/css-advice.jpg"></details>
@@ -230,25 +256,27 @@ The project has undergone testing on various devices, including desktops, laptop
    <img src="assets/img/readme-pics/brws-test-tablet.jpg"></details>
    <hr>
 
-<details><summary><b>Movil Testing</b></summary>
+<details><summary><b>Mobile Testing</b></summary>
    <img src="assets/img/readme-pics/brws-test-mobil.jpg"></details>
    <hr>
 
 ## Browser Compatibility
+<details><summary><b>Edge,Firefox,Chrome</b></summary>
+   <img src="assets/img/readme-pics/brws-test-diff-brw.png">
+   </details>
+   <hr>
 Extensive testing has been conducted on multiple browsers, including but not limited to Chrome, Firefox, Safari, and Microsoft Edge. The project aims for consistent performance and appearance across these popular browsers.
 
-<details><summary><b>Desktop Testing</b></summary>
-   <img src="assets/img/readme-pics/brws-test-desktop.jpg"></details>
+### *Special Attention to Dark Mode:*
+<details><summary><b>Mobile DARK MODE</b></summary>
+   <img src="assets/img/readme-pics/brws-test-dark-1.jpg">
+   <img src="assets/img/readme-pics/brws-test-dark-2.jpg">
+   </details>
    <hr>
 
-<details><summary><b>Tablet Testing</b></summary>
-   <img src="assets/img/readme-pics/brws-test-tablet.jpg"></details>
-   <hr>
+# User Stories Testing
 
-<details><summary><b>Movil Testing</b></summary>
-   <img src="assets/img/readme-pics/brws-test-mobil.jpg"></details>
-   <hr>
-
+While testing on various devices, the project's compatibility with dark mode has been specifically examined. Notably, the Xiaomi browser, with dark mode activated, showcases the project's adaptability, providing an optimal experience for users in dark mode.
 
 **First-time User**
 

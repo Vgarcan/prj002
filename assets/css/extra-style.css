@@ -1,5 +1,4 @@
-
+/* Container shadow  */
 #main-container {
-    /* background-color: chocolate; */
     box-shadow: 0 10px 12px rgba(0, 0, 0, 0.485);
 }

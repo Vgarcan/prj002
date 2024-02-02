@@ -1,13 +1,34 @@
+/* colors */
+.add-color-white {
+    background-color: #ffffffca;
+}
+
+/* divider */
 .featurette-divider {
     color: chocolate;
 }
 
+/* user header */
+.user-banner {
+    background-image: url(/assets/img/banners/banner4.png); 
+    width: 100%; 
+    height: 200px; 
+    background-repeat: initial;
+    background-size: cover;
+}
 
+/* Dreams Attributes */
 .attributes-box {
     background-color: #096597be;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.485);
 }
 
+/* community post */
+.adjust-com-pics{
+    object-fit: cover;
+}
+
+/* Social links  */
 .icon-link {
     color: #4ef9ff;
     text-decoration: none;
@@ -21,7 +42,6 @@
 div>h3 {
     font-size: 24px;
 }
-
 
 .carousel-item img {
     width: 100%;

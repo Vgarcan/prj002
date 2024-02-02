@@ -242,8 +242,20 @@ CSS code has been validated using the W3C CSS Validation Service ([W3C CSS Valid
 ## Accessibility
 Accessibility has been a priority throughout the development process. The project has been tested using various tools and manual checks to ensure it complies with accessibility standards, providing an inclusive experience for users with diverse needs.
 
+## Wave Validation
+
+The Wave Validation has been conducted, revealing zero errors and a few alerts. One of the alerts pertains to the visual presentation, suggesting potential issues with the visibility of headings in pink against a white background. However, user testing has shown no problems with readability or visibility, and we have chosen to disregard this alert.
+
+Additionally, a similar issue is observed on the diary page, where the pink square may encounter responsiveness challenges. Despite this, visual inspection and user testing confirm that the content is visible and accessible.
+
+Another point raised in the validation is the similarity of link URLs, where many are relative and deemed similar. Given the ongoing development and redirection to a 404 page, these URLs remain as such for the time being. It's acknowledged that this might affect the Wave Validation but is considered in the context of the evolving project.
+
 ## Lighthouse Validation
-The project's performance, accessibility, best practices, SEO, and Progressive Web App (PWA) features have been assessed using Lighthouse, an open-source tool for improving web page quality. This validation helps optimize the project for a seamless user experience.
+
+The Wave Validation process is underway, focusing on accessibility checks. Any findings or adjustments during this validation will be addressed to ensure the platform adheres to accessibility standards.
+
+Please note that ongoing development may introduce variations that impact specific validations. We appreciate your understanding as we continue to enhance the Dreams Reader Project.
+
 
 ## Device Testing
 The project has undergone testing on various devices, including desktops, laptops, tablets, and smartphones. This ensures responsiveness and functionality across different screen sizes and resolutions.
@@ -315,7 +327,7 @@ While testing on various devices, the project's compatibility with dark mode has
 3. **Social Media Presence:**
    | **Feature** | **Action** | **Expected Result** | **Actual Result** |
    |-------------|------------|---------------------|-------------------|
-   | Find Social Media Links | Locate links to Dream Reader's social media | Easy access to social media platforms for updates | Not Working yet |
+   | Find Social Media Links | Locate links to Dream Reader's social media | Easy access to social media platforms for updates | Works as expected |
 
 4. **Interaction Opportunities:**
    | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -342,7 +354,7 @@ While testing on various devices, the project's compatibility with dark mode has
 4. **Item Acquisition:**
    | **Feature** | **Action** | **Expected Result** | **Actual Result** |
    |-------------|------------|---------------------|-------------------|
-   | Acquire Dream-Related Content | Work on acquiring more dream-related content | Successful acquisition of diverse dream entries | Not Working Yet |
+   | Acquire Dream-Related Content | Work on acquiring more dream-related content | Successful acquisition of diverse dream entries | Ongoing |
 
 5. **User Accessibility:**
    | **Feature** | **Action** | **Expected Result** | **Actual Result** |

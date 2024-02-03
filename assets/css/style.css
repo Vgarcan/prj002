@@ -1,4 +1,16 @@
 /* ----------Global Styles---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Jost:wght@300&display=swap');
+/* 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+} */
+
+/* p {
+    font-family: 'Jost', sans-serif;
+} */
+
 body {
     margin: 0;
     padding: 0;
@@ -144,7 +156,6 @@ footer {
 
 li .bi:hover {
     transform: scale(2);
-    resize: 20px;
 }
 
 /* ---x---x---x---Resolution adjustments---x---x---x--- */

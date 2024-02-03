@@ -231,7 +231,7 @@ The HTML code has been validated using the W3C Markup Validation Service ([W3C V
    <hr>
    <!--! Change img  -->
 <details><summary><b>CONTACT US Validation</b></summary>
-   <img src="assets/img/readme-pics/val-index.jpg"></details>
+   <img src="assets/img/readme-pics/val-contactus.jpg"></details>
    <hr>
 
 ## CSS Validation
@@ -252,7 +252,8 @@ Another point raised in the validation is the similarity of link URLs, where man
 
 ## Lighthouse Validation
 
-Lighthouse Validation has been a crucial part of our testing process. Conducting incremental assessments allowed us to identify and rectify issues in the early stages of the project. This tool proved instrumental in ensuring the proper structure and adherence to standards in both CSS and HTML. The valuable insights gained from Lighthouse Validation significantly contributed to the overall refinement of our project.
+Lighthouse Validation has played a pivotal role in shaping the development of our project. This invaluable tool has proven to be highly useful throughout the creation process. While we haven't achieved a high score in the PERFORMANCE category, other aspects have excelled, nearly reaching a perfect score. This outcome provides us with valuable insights into areas for improvement, particularly in optimizing image resolutions. Going forward, we aim to enhance the project by addressing the identified performance-related opportunities.
+
 
 Please note that ongoing development may introduce variations that impact specific validations. We appreciate your understanding as we continue to enhance the Dreams Reader Project.
 
@@ -507,7 +508,13 @@ To manage CSS validation challenges related to Bootstrap, I implemented the foll
 3. **Documentation Clarity:**
    - In the project's documentation, I provided clarity on the use of Bootstrap and acknowledged that validation errors might occur due to its unique styling approach.
 
-These strategies helped maintain a balance between utilizing the powerful features of Bootstrap and ensuring a clean, error-free CSS validation process. Users accessing the project can understand the intentional use of Bootstrap and its impact on validation results.
+## Font Selection Challenge
+
+Exploring alternative fonts led us to the realization that our current font choice not only complements our desired aesthetic but also performs exceptionally well across various browsers and devices. Despite attempts to experiment with different fonts, none surpassed the qualities of our current font.
+
+### **Resolution:**
+
+After thorough testing and assessment, I made a deliberate decision to maintain the existing font. Its visual appeal and consistent performance across platforms align with our project's identity, emphasizing a user-centric approach to ensure a positive experience.
 
 # Acknowledgment
 
@@ -525,9 +532,8 @@ The Dream Reader Project leverages Bootstrap as a foundation for its design. Uti
 
 The text-content for the 'Press' and 'Contact Us' pages has been generously provided by [Andryu Schittone](https://www.linkedin.com/in/anschittone). His contributions have enhanced the realism and functionality of these pages, contributing to a more immersive user experience.
 
-I express gratitude for the collaborative efforts that have enriched the Dreams Reader Project.
-
 ## Playground.ai - Image Creation
 
 We express gratitude to [playground.com](https://playground.com/) for providing an invaluable AI tool that aids in creating copyright-free images for our website. This tool ensures that our visuals comply with copyright regulations.
 
+I express gratitude for the collaborative efforts that have enriched the Dreams Reader Project.

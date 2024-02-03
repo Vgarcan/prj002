@@ -15,6 +15,7 @@
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
     - [Accessibility](#accessibility)
+    - [Wave Validation](#wave-validation)
     - [Lighthouse Validation](#lighthouse-validation)
     - [Device testing](#device-testing)
     - [Browser Compatibility](#browser-compatibility)
@@ -26,6 +27,7 @@
 8. [Deployment](#deployment)
 9. [License](#license)
 10. [Bugs and Challenges](#bugs-and-challenges)
+11. [Acknowledgment](#acknowledgment)
 
 
 # Introduction
@@ -244,15 +246,13 @@ Accessibility has been a priority throughout the development process. The projec
 
 ## Wave Validation
 
-The Wave Validation has been conducted, revealing zero errors and a few alerts. One of the alerts pertains to the visual presentation, suggesting potential issues with the visibility of headings in pink against a white background. However, user testing has shown no problems with readability or visibility, and we have chosen to disregard this alert.
-
-Additionally, a similar issue is observed on the diary page, where the pink square may encounter responsiveness challenges. Despite this, visual inspection and user testing confirm that the content is visible and accessible.
+The Wave Validation has been conducted, revealing zero errors and a few alerts. One of the alerts pertains to the visual presentation, suggesting potential issues with the visibility of headings in pink against a white background. However, user testing has shown no problems with readability or visibility, and we have chosen to disregard this alert. Additionally, a similar issue is observed on the diary page, where the pink date may encounter responsiveness challenges. Despite this, visual inspection and user testing confirm that the content is visible and accessible.
 
 Another point raised in the validation is the similarity of link URLs, where many are relative and deemed similar. Given the ongoing development and redirection to a 404 page, these URLs remain as such for the time being. It's acknowledged that this might affect the Wave Validation but is considered in the context of the evolving project.
 
 ## Lighthouse Validation
 
-The Wave Validation process is underway, focusing on accessibility checks. Any findings or adjustments during this validation will be addressed to ensure the platform adheres to accessibility standards.
+Lighthouse Validation has been a crucial part of our testing process. Conducting incremental assessments allowed us to identify and rectify issues in the early stages of the project. This tool proved instrumental in ensuring the proper structure and adherence to standards in both CSS and HTML. The valuable insights gained from Lighthouse Validation significantly contributed to the overall refinement of our project.
 
 Please note that ongoing development may introduce variations that impact specific validations. We appreciate your understanding as we continue to enhance the Dreams Reader Project.
 
@@ -509,5 +509,25 @@ To manage CSS validation challenges related to Bootstrap, I implemented the foll
 
 These strategies helped maintain a balance between utilizing the powerful features of Bootstrap and ensuring a clean, error-free CSS validation process. Users accessing the project can understand the intentional use of Bootstrap and its impact on validation results.
 
+# Acknowledgment
 
+I extend my appreciation to the following sources that influenced the structure and content of the Dream Reader Project:
+
+## README.md Model
+
+The README.md format employed for the Dream Reader Project is inspired by the exemplary work of Gianluca Zimmatore (Altera Musica Project). Drawing inspiration from a well-executed model that garnered high praise, I aimed to craft a README.md that meets the expected standards set by Code Institute.
+
+## Bootstrap
+
+The Dream Reader Project leverages Bootstrap as a foundation for its design. Utilizing Bootstrap's templates and features has facilitated a cleaner and more organized codebase, providing a solid starting point for customization.
+
+## Content Contributions
+
+The text-content for the 'Press' and 'Contact Us' pages has been generously provided by [Andryu Schittone](https://www.linkedin.com/in/anschittone). His contributions have enhanced the realism and functionality of these pages, contributing to a more immersive user experience.
+
+I express gratitude for the collaborative efforts that have enriched the Dreams Reader Project.
+
+## Playground.ai - Image Creation
+
+We express gratitude to [playground.com](https://playground.com/) for providing an invaluable AI tool that aids in creating copyright-free images for our website. This tool ensures that our visuals comply with copyright regulations.
 

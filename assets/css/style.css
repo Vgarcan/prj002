@@ -144,7 +144,7 @@ footer {
 
 li .bi:hover {
     transform: scale(2);
-    size: 20px;
+    resize: 20px;
 }
 
 /* ---x---x---x---Resolution adjustments---x---x---x--- */

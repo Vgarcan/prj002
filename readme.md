@@ -1,4 +1,4 @@
-![Main LOGO](assets\img\logo\logo-main-sm-no_bkg.png)
+![Main LOGO](assets/img/logo/logo-main-sm-no_bkg.png)
 
 
 ## Table of Contents

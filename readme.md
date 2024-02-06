@@ -1,5 +1,19 @@
 ![Main LOGO](assets/img/logo/logo-main-sm-no_bkg.png)
 
+# Victor Garcia Cantalapidera 
+-Slack:[@Victor Garcia](https://code-institute-room.slack.com/team/U0695HZA7FZ)
+
+-GitHub: [Vgarcan](https://github.com/Vgarcan)
+
+-LinkedIn: [Victor Garcia](https://www.linkedin.com/in/vgc89/)
+
+## Check us out!
+
+[Visit our Website - DreamsReader](https://ambitious-bush-0d5afce1e.4.azurestaticapps.net/) \***Recommended*\**
+
+[DreamsReader GitHub Pages](https://ambitious-bush-0d5afce1e.4.azurestaticapps.net/) 
+
+
 
 ## Table of Contents
 
@@ -515,6 +529,9 @@ Exploring alternative fonts led us to the realization that our current font choi
 ### **Resolution:**
 
 After thorough testing and assessment, I made a deliberate decision to maintain the existing font. Its visual appeal and consistent performance across platforms align with our project's identity, emphasizing a user-centric approach to ensure a positive experience.
+
+## GitHub Deployment Issue:
+During deployment on GitHub Pages, we encountered an issue where the image "banner4.png" on "diary.html" failed to load. This issue appears to be specific to GitHub deployment, as the image is accessible via its direct URL [here](https://vgarcan.github.io/prj002/assets/img/banners/banner4.png). This discrepancy suggests a potential error in the deployment process on GitHub. To ensure a seamless experience, we recommend accessing the project on [Azure](https://ambitious-bush-0d5afce1e.4.azurestaticapps.net/).
 
 # Acknowledgment
 
